@@ -21,7 +21,7 @@ public class ListActivity extends AppCompatActivity {
 
         ArrayList<String> daftar_nama = getIntent().getExtras().getStringArrayList("daftar_nama");
 
-        if(daftar_nama.isEmpty()){
+        if(daftar_nama.isEmpty()) {
             daftar_nama.add("data masih kosong");
         }
 
